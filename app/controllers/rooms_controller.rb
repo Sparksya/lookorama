@@ -28,6 +28,7 @@ before_action :require_same_user, only: [:edit, :update]
     end
    
     def show
+        @photos = @room.photos
         @reviews = @room.reviews
 
         if current_user
