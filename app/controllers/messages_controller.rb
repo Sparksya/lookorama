@@ -18,8 +18,8 @@ class MessagesController < ApplicationController
         
         if @message.save
            respond_to do |format|
-             format.js
-            end
+               format.js
+           end
         end
     end
     
