@@ -1,8 +1,9 @@
 Rails.application.routes.draw do
   devise_for :users, :path => '',
                     :path_names => {:sign_in => 'login', :sign_out => 'logout', :edit => 'profil'},
-                    :controllers => {:registrations => 'registrations',
-                                      :confirmations=> 'confirmations'
+                    :controllers => {:registrations=> 'registrations',
+                                      :confirmations=> 'confirmations',
+                                      :omniauth_callbacks=> 'omniauth_callbacks'
                     }
   
   # The priority is based upon order of creation: first created -> highest priority.
