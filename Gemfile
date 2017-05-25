@@ -37,8 +37,9 @@ gem 'ransack'
 gem 'rails-timeago'
 
 gem 'omniauth'
-
 gem 'omniauth-facebook'
+
+gem 'stripe'
 
 
 # Use jquery as the JavaScript library
