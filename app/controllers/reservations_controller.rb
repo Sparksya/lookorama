@@ -39,7 +39,6 @@ class ReservationsController < ApplicationController
          
          rescue Exception
          
-         @reservation.destroy
          
          puts 'Le paiement a échoué'
          
